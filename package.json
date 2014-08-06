@@ -1,0 +1,17 @@
+{
+  "name": "makoframework-paste",
+  "main": "./lib/makoframework-paste",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": [
+    "makoframework-paste:upload"
+  ],
+  "repository": "https://github.com/atom/makoframework-paste",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "request": "^2.39.0"
+  }
+}

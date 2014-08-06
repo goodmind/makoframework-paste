@@ -1,0 +1,23 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Upload file to makopaste': 'makoframework-paste:upload'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Makoframework Paste'
+      'submenu': [
+        { 'label': 'Upload file', 'command': 'makoframework-paste:upload' }
+      ]
+    ]
+  }
+  {
+    'label': 'File'
+    'submenu': [
+      'label': 'Upload to makopaste'
+      'command': 'makoframework-paste:upload'
+    ]
+  }
+]
